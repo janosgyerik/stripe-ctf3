@@ -1,3 +1,4 @@
 *.pyc
 project/project/
 target
+test/data/input/
