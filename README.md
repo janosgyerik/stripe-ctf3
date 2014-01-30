@@ -80,4 +80,49 @@ TODO
 
 level4
 ------
-TODO
+To test your implementation against the benchmark, simply run:
+
+    ./test/harness
+
+Example run:
+
+```
+... (skipped)
+Final stats (running with 5 nodes for 30s):
+Bytes read: 44.88KB
+Bytes written: 43.76KB
+Connection attempts: 8
+Correct queries: 5
+
+Score breakdown:
+50 points from queries
+-151 points from network traffic
+
+Total:
+-101 points (canceled due to disqualification)
+-------------------->8--------------------
+```
+That's worse than poor, the run got cancelled due to disqualification.
+
+Another example:
+
+```
+... (skipped)
+--------------------8<--------------------
+Final stats (running with 5 nodes for 30s):
+Bytes read: 97.94KB
+Bytes written: 96.79KB
+Connection attempts: 120
+Correct queries: 67
+
+Score breakdown:
+670 points from queries
+-223 points from network traffic
+
+Total:
+447 points
+-------------------->8--------------------
+Your normalized score works out to 74. (Our benchmark scored 1430 [queries] - 826 [network] = 603 points on this test case.)
+```
+
+Try to get consistently better score than the benchmark.
