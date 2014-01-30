@@ -20,9 +20,6 @@ Each level contains a README.md, which should get you started.
 
 level0
 ------
-Task: improve `level0`. In whatever language. Your goal is to
-make it as fast as possible compared to the benchmark.
-
 To test your implementation against the benchmark, simply run:
 
     ./test/harness
@@ -37,9 +34,8 @@ Finished run
 Test case passed. Your time: 9.513440 seconds. Benchmark time: 0.621270 seconds. You/Benchmark: 15.312883
 ```
 
-The relevant part is: `You/Benchmark: 15.312883`
-
-That's very poor. Try to get that rate below 0.5.
+`You/Benchmark: 15.312883` is very poor.
+Try to get that rate below 0.5
 
 
 level1
@@ -49,7 +45,23 @@ TODO
 
 level2
 ------
-TODO
+To test your implementation against the benchmark, simply run:
+
+    ./test/harness
+
+Example run:
+
+```
+... (skipped)
+Number of total responses 528
+Number of good responses: 30
+Number of responses less than ideal: 538.6666666666667
+Finished run
+Test case passed. Your score: 0.010000. Benchmark score: 124.791667. You/Benchmark: 0.000080.
+```
+
+`You/Benchmark: 0.000080` is very poor.
+Try to get that rate below 2.0
 
 
 level3
