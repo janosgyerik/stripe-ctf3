@@ -66,7 +66,16 @@ Try to get that rate below 2.0
 
 level3
 ------
+To test your implementation against the benchmark, simply run:
+
+    ./test/harness
+
+Example run:
+
+```
+... (skipped)
 TODO
+```
 
 
 level4
