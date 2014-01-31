@@ -1,0 +1,13 @@
+*.pyc
+level3.jar
+target
+project
+test/data/
+instantcodesearch-1.index
+instantcodesearch-2.index
+instantcodesearch-3.index
+tmp
+.classpath
+.idea
+.project
+.settings
