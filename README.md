@@ -11,12 +11,12 @@ was about distributed systems and performance:
 
 This repository contains the source code of the original levels,
 *without solutions*. You can find solutions and write-ups by
-many participants in https://github.com/ctfs/write-ups
+many participants on <https://github.com/ctfs/write-ups/tree/master/stripe-ctf3>.
 
 The purpose of this repo is to make it easy to implement your
 own solutions and compare them against a benchmark.
 
-Each level contains a README.md, which should get you started.
+Each level contains a `README.md`, which should get you started.
 
 level0
 ------
