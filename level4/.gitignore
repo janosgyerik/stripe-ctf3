@@ -4,3 +4,4 @@ sqlcluster
 !/.build/src/stripe-ctf.com/sqlcluster
 /test/data/octopus.version
 .build/src/github.com
+/src
