@@ -18,6 +18,20 @@ own solutions and compare them against a benchmark.
 
 Each level contains a README.md, which should get you started.
 
+TODO
+----
+- level1:
+    - sample output
+    - minimum target score
+- level3:
+    - need to confirm build steps, in Linux and OSX
+    - ready-to-open/import in Scala-IDE and/or IntelliJ
+    - sample output
+    - minimum target score
+- level4:
+    - need to confirm build steps, in Linux and OSX
+    - ready-to-open/import in IntelliJ (or other IDE?)
+
 level0
 ------
 To test your implementation against the benchmark, simply run:
@@ -45,6 +59,11 @@ TODO
 
 level2
 ------
+The sample implementation requires `npm`, the Node.js package manager.
+Build the sample implementation with:
+
+    ./build.sh
+
 To test your implementation against the benchmark, simply run:
 
     ./test/harness
@@ -66,6 +85,18 @@ Try to get that rate below 2.0
 
 level3
 ------
+TODO: need more details here about installing `sbt` and `scala`,
+and the build process in general.
+(will test in a clean vanilla Ubuntu)
+
+TODO: would be nice to have a ready-to-open project in Scala-IDE or IntelliJ
+
+The sample implementation requires `scala`, the Scala compiler,
+and `sbt`, the Scala build tool.
+Build the sample implementation with:
+
+    ./build.sh
+
 To test your implementation against the benchmark, simply run:
 
     ./test/harness
@@ -80,6 +111,13 @@ TODO
 
 level4
 ------
+The sample implementation requires `go`, the Go compiler.
+You can download it from http://golang.org/doc/install
+
+Build the sample implementation with:
+
+    ./build.sh
+
 To test your implementation against the benchmark, simply run:
 
     ./test/harness
